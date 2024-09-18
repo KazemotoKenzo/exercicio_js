@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10% auto;
+    text-align: center;
+    width: 50%;
+}
+
+h1 {
+    text-align: left;
+}
+form {
+    margin-top: 24px;
+    text-align: left;
+}
+
+input,
+button{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.success-message{
+    background-color: rgb(40, 189, 40);
+    color: white;
+    padding: 16px;
+    display: none;
+}
+
+.error-message{
+    background-color: rgb(231, 29, 29);
+    color: white;
+    margin-bottom: 8px;
+    padding: 8px;
+    display: none;
+}
+
+input.error{
+    color: red;
+    border-color: red;
+}
